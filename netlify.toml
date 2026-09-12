@@ -1,0 +1,5 @@
+# Netlify. Publishes the repo root as-is; headers + redirects live in
+# _headers and _redirects so the same files also work on Cloudflare Pages.
+[build]
+  publish = "."
+  command = ""
